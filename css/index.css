@@ -1,0 +1,209 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+header{
+	background-color: #333;
+	height: 3em;
+	color: #FFF;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-style: italic;
+	font-size: 30px;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 60%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid rgb(120, 13, 134);
+	margin-bottom: .5em;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 2px solid #ccc;
+	text-align: center;
+
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+label{
+	color: #555;
+	display: block;
+	margin-bottom: .2em;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: .7em;
+	width: 100%;
+	border-radius: 10px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;	
+}
+
+.grupo{
+	color: black;
+	font-size: 15px;
+	width: 32%;
+	display: inline-block;
+	padding: 13px 3px;
+	font-weight: bold;
+	
+}
+
+button{
+	padding: .5em 2em;
+	border: 0;
+	border-bottom: 3px solid;
+	font-size: 1.3em;
+	cursor: pointer;
+	margin: 0;
+	margin-top: -3px;
+	color: #fff;
+	background-color:rgba(78, 8, 75, 0.74);
+	border-color:	rgba(0, 0, 0, 0.205);
+	width: 30%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+	border-radius: 40px;
+
+}
+button:hover{
+	border-color: black;
+	border: 3px solid black;
+}
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+#titulo-form{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid rgb(120, 13, 134);
+	margin-bottom: .5em;
+	
+}
+#meus-pacientes{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+#mensagens-erro {
+	color: lightcoral;
+}
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+#filtrar-tabela {
+	font-style: italic;
+	font-size: 14px;
+	color: black;
+	width: 200px;
+	height: 35px;
+	margin-bottom: 1px;
+	border-radius: 10px;
+	padding: 5px 5px;
+	margin: 6px 1px;
+
+	
+}
+#titulo-filtro{
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	border-radius: 10px;
+}
+.invisivel {
+	display: none;
+} 
+@media screen and (max-width: 480px) {table{
+	width: 100%;
+	height: auto;
+	margin: 2px 2px;
+}
+}
+@media screen and (max-width: 600px) {#buscar-pacientes,button{
+width: auto;
+height: auto;
+margin: 2px 2px;
+}}
