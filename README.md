@@ -1,4 +1,12 @@
 # <a href="https://matheussan99.github.io/Site_Calculo_IMC_Automatico/">Site_Calculo_IMC_Automatico<a/>
+  
+### Linguagens Usadas:  
+  
+![Html Badge](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+  
+![CSS Badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
+
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
   
  ### Site que Calcula o IMC de forma automática, com as seguintes opções:
